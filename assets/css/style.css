@@ -498,6 +498,11 @@ h3 :before{
     display: block;
   }
 }
+@media (max-width: 568px) {
+  #header .logo #png-logo{
+    height:45px
+  }
+}
 .mobile-nav-toggle {
   color: #B7092B;
   font-size: 28px;
