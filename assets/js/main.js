@@ -1,6 +1,6 @@
 ;(function () {
   ;("use strict")
- 
+
 
   const select = (el, all = false) => {
     el = el.trim()
@@ -209,4 +209,68 @@
       mirror: false
     })
   })
+
+
+
+
+  // project card 1
+  $(".t1").click(function (){
+    $(".hidden1").show(500)
+    $(".pc1").css("background-color", "#E42D36")  
+})
+  $(".t1").mouseout(function(){
+    $(".hidden1").hide(500)
+    $(".pc1").css("background-color", "white");
+  })
+
+    // project card 2
+    $(".t2").click(function (){
+      $(".hidden2").show(500)
+      $(".pc2").css("background-color", "#E42D36")  
+  })
+    $(".t2").mouseout(function(){
+      $(".hidden2").hide(500)
+      $(".pc2").css("background-color", "white");
+    })
+
+      // project card 3
+  $(".t3").click(function (){
+    $(".hidden3").show(500)
+    $(".pc3").css("background-color", "#E42D36")  
+})
+  $(".t3").mouseout(function(){
+    $(".hidden3").hide(500)
+    $(".pc3").css("background-color", "white");
+  })
+
+    // project card 4
+    $(".t4").click(function (){
+      $(".hidden4").show(500)
+      $(".pc4").css("background-color", "#E42D36")  
+  })
+    $(".t4").mouseout(function(){
+      $(".hidden4").hide(500)
+      $(".pc4").css("background-color", "white");
+    })
+
+      // project card 5
+  $(".t5").click(function (){
+    $(".hidden5").show(500)
+    $(".pc5").css("background-color", "#E42D36")  
+})
+  $(".t5").mouseout(function(){
+    $(".hidden5").hide(500)
+    $(".pc5").css("background-color", "white");
+  })
+
+    // project card 6
+    $(".t6").click(function (){
+      $(".hidden6").show(500)
+      $(".pc6").css("background-color", "#E42D36")  
+  })
+    $(".t6").mouseout(function(){
+      $(".hidden6").hide(500)
+      $(".pc6").css("background-color", "white");
+    })
+
 })()
