@@ -2019,7 +2019,6 @@ width: 40%;
     opacity: 0;
   }
 }
-/*************/
 
 .gallery .tabs {
   margin-bottom: 50px;
@@ -2043,6 +2042,20 @@ width: 40%;
 
 .gallery .tabs .nav .nav-link.active {
   background-color: #B7092B;
+}
+
+
+@media (max-width:500px){
+  .gallery .tabs .nav .nav-link {
+    padding: .3rem 1rem;
+  }
+}
+@media (max-width:280px){
+  .gallery .tabs .nav .nav-link {
+    padding: .3rem 0.7rem;
+    margin: 0 3px;
+    font-size: 14px;
+  }
 }
 /*--------------------------------------------------------------
 #  contact us page
